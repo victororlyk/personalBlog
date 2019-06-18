@@ -1,7 +1,8 @@
 ---
 title: 'gatsby'
 date: '2019-06-18'
----yarn 
+---
+
 
 i just launched bootcamp
 
