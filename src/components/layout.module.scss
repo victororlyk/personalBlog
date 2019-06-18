@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  max-width: 900px;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-left: 50%;
+  transform: translateX(-50%);
+
+  .content {
+    flex-grow: 1;
+  }
+}

@@ -1,0 +1,26 @@
+.header {
+  .nav {
+    .nav-list {
+      list-style: none;
+      display: flex;
+    }
+
+    .nav-item {
+      margin: 0 15px;
+
+      a {
+        text-decoration: none;
+        color: #999999;
+
+        &:hover {
+          color: #666666;
+        }
+      }
+
+      .active-item {
+        color: #333333;
+      }
+
+    }
+  }
+}
