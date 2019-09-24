@@ -1,16 +1,14 @@
-import React from "react"
-import Layout from "../components/Layout"
+import React from "react";
+import Layout from "../components/Layout";
 
 
-const Contacts = props => {
-  return (
-    <Layout>
+const Contacts = props => (
+	<Layout>
       contacts page
-    </Layout>
+	</Layout>
 
-  )
-}
+);
 
-Contacts.propTypes = {}
+Contacts.propTypes = {};
 
-export default Contacts
+export default Contacts;

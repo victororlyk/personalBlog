@@ -1,10 +1,10 @@
-import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
+import React from "react";
+import { graphql, useStaticQuery } from "gatsby";
 
-import classes from './footer.module.scss'
+import classes from "./footer.module.scss";
 
 const Footer = props => {
-  const data = useStaticQuery(graphql`
+	const data = useStaticQuery(graphql`
       query{
           site{
               siteMetadata{
@@ -14,14 +14,16 @@ const Footer = props => {
 
       }
 
-  `)
-  return (
-    <footer className={classes.footer}>
-      created by &copy; {data.site.siteMetadata.author}
-    </footer>
-  )
-}
+  `);
+	return (
+		<footer className={ classes.footer }>
+      created by &copy;
+			{" "}
+			{data.site.siteMetadata.author}
+		</footer>
+	);
+};
 
-Footer.propTypes = {}
+Footer.propTypes = {};
 
-export default Footer
+export default Footer;

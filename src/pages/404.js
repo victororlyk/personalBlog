@@ -1,13 +1,11 @@
-import React from "react"
+import React from "react";
 
-const PageNotFound = props => {
-  return (
-    <div>
+const PageNotFound = props => (
+	<div>
       page is not found
-    </div>
-  )
-}
+	</div>
+);
 
-PageNotFound.propTypes = {}
+PageNotFound.propTypes = {};
 
-export default PageNotFound
+export default PageNotFound;

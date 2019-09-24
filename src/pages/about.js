@@ -1,16 +1,14 @@
-import React from "react"
-import Layout from "../components/Layout"
+import React from "react";
+import Layout from "../components/Layout";
 
-const About = props => {
-  return (
-    <Layout>
+const About = props => (
+	<Layout>
       about page
-    </Layout>
-  )
-}
+	</Layout>
+);
 
 About.propTypes = {
 
-}
+};
 
-export default About
+export default About;
